@@ -1,0 +1,69 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  width: 100%;
+  background-color: #6198c1;
+}
+
+nav .f-2 {
+  width: 100%;
+  padding: 10px;
+}
+
+nav .f-2 div {
+  position: relative;
+  padding-left: 30px;
+  width: 50%;
+}
+
+nav .f-2 div img {
+  position: relative;
+  left: -50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+  width: 40px;
+}
+
+nav .f-2 div.subject-container div {
+  background-color: #b0ccf8;
+  border-radius: 100px;
+  margin: auto;
+  padding: 10px;
+}
+
+nav .f-2 div.subject-container div span {
+  margin: auto;
+  background-color: white;
+  width: 90%;
+  border-radius: 100px;
+  display: block;
+}
+
+.lesson-container {
+  text-align: right;
+}
+
+.lesson-container .title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.lesson-container p {
+  padding-right: 25px;
+}
+
+.lesson-container .f-2 .image {
+  padding-left: 20px;
+}
+
+.lesson-container .f-2 .image img {
+  border: 1px solid;
+  width: 500px;
+}
+/*# sourceMappingURL=LessonPage.css.map */
